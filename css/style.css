@@ -19,7 +19,7 @@
   position: fixed;
   height: 70px;
 
-  background-color: #dddddd;
+  background-color: #781464;
 }
 #head-con2 {
   margin-top: -100px;
@@ -63,17 +63,17 @@
   margin-left: 10px;
 }
 #home-button:hover {
-  box-shadow: 1px 1px 5px #5243c0, -0.1px -0.1px 10px rgb(165, 161, 161);
+  box-shadow: 1px 1px 5px #615999, -0.1px -0.1px 10px rgb(165, 161, 161);
   cursor: pointer;
 }
 .add-button {
   cursor: pointer;
-  background-color: #5243c0;
+  background-color: #191632;
   border: 0px;
   font-size: 15px;
   font-weight: 600;
   border-radius: 5px;
-  color: #ffffff;
+  color: #f8f8f8;
   padding: 5px 20px;
   margin: 10px;
 }
@@ -90,7 +90,7 @@
   border-radius: 5px;
   position: relative;
   height: 48px;
-  box-shadow: 0px 1px 5px 3px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 1px 5px 3px rgba(41, 40, 40, 0.12);
 }
 .search-input input {
   height: 48px;
@@ -100,7 +100,7 @@
   border-radius: 5px;
   padding: 0 60px 0 20px;
   font-size: 18px;
-  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 1px 5px rgba(12, 2, 78, 0.1);
 }
 .search-input.active input {
   border-radius: 5px 5px 0 0;
@@ -127,7 +127,7 @@
 .search-input.active .autocom-box li {
   display: block;
   background-color: white;
-  box-shadow: 1px 1px 2px gray;
+  box-shadow: 1px 1px 2px rgb(83, 80, 80);
 }
 .autocom-box li:hover {
   background: #efefef;
@@ -141,7 +141,7 @@
   text-align: center;
   line-height: 55px;
   font-size: 20px;
-  color: #644bff;
+  color: #070516;
   cursor: pointer;
 }
 
@@ -161,56 +161,33 @@
   width: 500%;
   /* height: 500px; */
   display: flex;
+ 
 }
 
 .slides input {
   display: none;
+  
 }
 
 .slide {
   width: 20%;
   transition: 0.5s;
-  height: 400px;
+  height: 570px;
   object-fit: cover;
 }
 
 .slide img {
   /* width: 95%; */
   width: 100%;
-  margin-top: 10px;
+  /* margin-top: 10px; */
   
   /* height: 500px; */
 }
 
-/*css for manual slide navigation*/
-
-.navigation-manual {
-  position: absolute;
-  width: 100%;
-  margin-top: 0.8vw;
-  display: flex;
-  justify-content: center;
-}
-
-.manual-btn {
-  border: 2px solid gray;
-  padding: 5px;
-  border-radius: 10px;
-  cursor: pointer;
-  transition: 0.5s;
-  opacity: 0.1;
-}
-
-.manual-btn:not(:last-child) {
-  margin-right: 40px;
-}
-
-.manual-btn:hover {
-  background: gray;
-}
 
 #radio1:checked ~ .first {
   margin-left: 0;
+ 
 }
 
 #radio2:checked ~ .first {
@@ -232,15 +209,15 @@
   display: flex;
   width: 100%;
   justify-content: center;
-  margin-top: 27vw;
+  margin-top: 580px;
 }
 
 .navigation-auto div {
-  border: 2px solid gray;
+  border: 2px solid rgb(6, 6, 100);
   padding: 5px;
   border-radius: 10px;
   transition: 0.5s;
-  color: red;
+  color: rgb(25, 76, 158);
   font-size: 30px;
   cursor: pointer;
 }
@@ -250,20 +227,20 @@
 }
 
 #radio1:checked ~ .navigation-auto .auto-btn1 {
-  background: gray;
+  background: rgb(49, 47, 47);
   color: blue;
 }
 
 #radio2:checked ~ .navigation-auto .auto-btn2 {
-  background: gray;
+  background: rgb(49, 48, 48);
 }
 
 #radio3:checked ~ .navigation-auto .auto-btn3 {
-  background: gray;
+  background: rgb(51, 51, 53);
 }
 
 #radio4:checked ~ .navigation-auto .auto-btn4 {
-  background: gray;
+  background: rgb(49, 48, 48);
 }
 .slides input {
   height: 20px;
@@ -279,10 +256,11 @@
 #container_teams {
   background-color: #dddddd;
   display: flex;
-  flex-wrap: wrap;
-  width: 100%;
   justify-content: center;
   padding: 50px 10%;
+  flex-wrap: wrap;
+  width: 100%;
+
 }
 .minibox {
   width: 23.2%;
@@ -299,11 +277,11 @@
   height: 370px;
   cursor: pointer;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 2px 10px 0px;
-  background-image: linear-gradient(rgb(28, 28, 28) 0%, rgb(11, 73, 115) 100%);
+  background-image: linear-gradient(rgb(17, 16, 16) 0%, rgb(11, 128, 206) 100%);
   border-radius: 5px;
 }
 .mn2 {
-  background-image: linear-gradient(rgb(234, 26, 133) 0%, rgb(0, 29, 72) 100%);
+  background-image: linear-gradient(rgb(74, 19, 47) 0%, rgb(25, 47, 79) 100%);
 }
 .minibox:hover {
   box-shadow: rgba(0, 0, 0, 0.7) 0px 2px 10px 5px;
@@ -364,8 +342,8 @@
   align-items: center;
 }
 #addteamform {
-  background-color: #8bc6ec;
-  background-image: linear-gradient(135deg, #8bc6ec 0%, #9599e2 100%);
+  background-color: #2082c4;
+  background-image: linear-gradient(135deg, #8bc6ec 80%, #797ed6 100%);
   border-radius: 20px;
   margin: 10px 0;
   width: 60%;
@@ -398,7 +376,7 @@
   color: #fff;
   padding: 16px 30px;
   letter-spacing: 2px;
-  background-color: #001f3f;
+  background-color: #14085e;
   border: none;
   border-radius: 4px;
   cursor: pointer;
@@ -418,7 +396,7 @@
   cursor: pointer;
 }
 #slogan2 {
-  color: rgb(12, 240, 39);
+  color: rgb(33, 7, 94);
   justify-content: center;
   display: flex;
   margin-top: -30px;
@@ -463,12 +441,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #ff3cac;
+  background-color: #961c61;
   background-image: linear-gradient(
     225deg,
-    #ff3cac 0%,
-    #784ba0 50%,
-    #2b86c5 100%
+    #b32274 0%,
+    #5c2d86 50%,
+    #1e699f 100%
   );
   padding: 10px 0;
   margin: 10px 50px;
@@ -479,7 +457,10 @@ footer {
   background-color: black;
   text-align: center;
 
-  padding: 50px;
+  padding: 40px;
+}
+footer h4{
+  font-size:18px;
 }
 #table-team {
   width: 100%;

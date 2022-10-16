@@ -8,7 +8,7 @@ setInterval(function () {
     if (counter > 4) {
         counter = 1;
     }
-}, 3000);
+}, 2000);
 
 // slider code ends
 
@@ -402,8 +402,24 @@ var playerData = [
 
 var teamData = [
 
-    {
+  {
         "id": 0,
+        "teamFullName": "Chennai Super Kings",
+        "sName": "CSK",
+        "fullSname":"CSK (Chennai Super King)" ,
+        "teamIcon": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/CSK/logos/Roundbig/CSKroundbig.png",
+        "WonCount": 6,
+    },
+    {
+        "id": 1,
+        "teamFullName": "Royal Challengers Bangalore",
+        "sName": "RCB",
+        "fullSname":"RCB (Royal challengers Bangalore)" ,
+        "teamIcon": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/RCB/Logos/Roundbig/RCBroundbig.png",
+        "WonCount": 5,
+    },
+    {
+        "id": 2,
         "teamFullName": "Mumbai Indians",
         "sName": "MI",
         "fullSname":"MI (Mumbai Indians)" ,
@@ -411,36 +427,28 @@ var teamData = [
         "WonCount": 5,
     },
     {
-        "id": 1,
-        "teamFullName": "Chennai Super Kings",
-        "sName": "CSK",
-        "fullSname":"CSK (Chennai Super King)" ,
-        "teamIcon": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/CSK/logos/Roundbig/CSKroundbig.png",
-        "WonCount": 4,
-    },
-    {
-        "id": 2,
-        "teamFullName": "Royal Challengers Bangalore",
-        "sName": "RCB",
-        "fullSname":"RCB (Royal challengers Bangalore)" ,
-        "teamIcon": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/RCB/Logos/Roundbig/RCBroundbig.png",
-        "WonCount": 0,
-    },
-    {
         "id": 3,
         "teamFullName": "Kolkata Knight Riders",
         "sName": "KKR",
         "fullSname":"KKR (Kolkata Knight Riders)" ,
         "teamIcon": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/KKR/Logos/Roundbig/KKRroundbig.png",
-        "WonCount": 2,
+        "WonCount": 3,
     },
     {
         "id": 4,
+        "teamFullName": "Gujarat Titan",
+        "sName": "GT",
+        "fullSname":"GT (Gujarat Tistan)" ,
+        "teamIcon": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/GT/Logos/Roundbig/GTroundbig.png",
+        "WonCount": 4,
+    },
+    {
+        "id": 5,
         "teamFullName": "Delhi Capitals",
         "sName": "DC",
         "fullSname":"DC (Delhi Capitals)" ,
         "teamIcon": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/DC/Logos/Roundbig/DCroundbig.png",
-        "WonCount": 2,
+        "WonCount": 3,
     },
     {
         "id": 5,
@@ -450,23 +458,23 @@ var teamData = [
         "teamIcon": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/GT/Logos/Roundbig/GTroundbig.png",
         "WonCount": 2,
     },
-
     {
         "id": 6,
-        "teamFullName": "Rajasthan Royals",
-        "sName": "RR",
-        "fullSname":"RR (Rajasthan Royals)" ,
-        "teamIcon": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/RR/Logos/Roundbig/RRroundbig.png",
-        "WonCount": 1,
-    },
-    {
-        "id": 7,
         "teamFullName": "Sunrises Hyderabad",
         "sName": "SH",
         "fullSname":"SH (Sunrises Hyderabad)" ,
         "teamIcon": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/SRH/Logos/Roundbig/SRHroundbig.png",
         "WonCount": 1,
     },
+    {
+        "id": 7,
+        "teamFullName": "Rajasthan Royals",
+        "sName": "RR",
+        "fullSname":"RR (Rajasthan Royals)" ,
+        "teamIcon": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/RR/Logos/Roundbig/RRroundbig.png",
+        "WonCount": 0,
+    },
+   
 
 
 ];
