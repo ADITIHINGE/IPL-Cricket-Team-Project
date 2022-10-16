@@ -475,10 +475,10 @@ var teamData = [
 
 
 var addteamclicked=()=>{
-    window.open("./Teamadd.html","_self")
+    window.open("./addTeam.html","_self")
 }
 var addPlayerClicked=()=>{
-    window.open("./Playeradd.html","_self")
+    window.open("./addPlayer.html","_self")
 }
 
 
