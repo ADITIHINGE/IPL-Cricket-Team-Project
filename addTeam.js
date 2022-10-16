@@ -1,5 +1,5 @@
 
-// jxdbkjzdhvizkv
+
 
 let localTeam = JSON.parse(localStorage.getItem("teamArray"));
 let localPlayers = JSON.parse(localStorage.getItem("playerArray"));

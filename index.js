@@ -1,4 +1,4 @@
-// xncvbkdhgizsrd
+
 // slider code
 
 var counter = 1;
