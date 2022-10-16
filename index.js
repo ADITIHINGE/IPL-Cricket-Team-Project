@@ -435,7 +435,7 @@ var teamData = [
         "WonCount": 3,
     },
     {
-        "id": 4,
+        "id": 7,
         "teamFullName": "Gujarat Titan",
         "sName": "GT",
         "fullSname":"GT (Gujarat Tistan)" ,
@@ -450,14 +450,7 @@ var teamData = [
         "teamIcon": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/DC/Logos/Roundbig/DCroundbig.png",
         "WonCount": 3,
     },
-    {
-        "id": 5,
-        "teamFullName": "Gujarat Titan",
-        "sName": "GT",
-        "fullSname":"GT (Gujarat Tistan)" ,
-        "teamIcon": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/GT/Logos/Roundbig/GTroundbig.png",
-        "WonCount": 2,
-    },
+   
     {
         "id": 6,
         "teamFullName": "Sunrises Hyderabad",
@@ -467,7 +460,7 @@ var teamData = [
         "WonCount": 1,
     },
     {
-        "id": 7,
+        "id": 4,
         "teamFullName": "Rajasthan Royals",
         "sName": "RR",
         "fullSname":"RR (Rajasthan Royals)" ,
@@ -482,10 +475,10 @@ var teamData = [
 
 
 var addteamclicked=()=>{
-    window.open("./addTeam.html","_self")
+    window.open("./Teamadd.html","_self")
 }
 var addPlayerClicked=()=>{
-    window.open("./addPlayer.html","_self")
+    window.open("./Playeradd.html","_self")
 }
 
 
