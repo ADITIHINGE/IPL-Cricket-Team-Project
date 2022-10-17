@@ -19,7 +19,7 @@
   position: fixed;
   height: 70px;
 
-  background-color: #781464;
+  background-color: #5f074e;
 }
 #head-con2 {
   margin-top: -100px;
@@ -28,7 +28,7 @@
   position: fixed;
   height: 70px;
 
-  background-color: #dddddd;
+  background-color: rgb(248, 248, 248);
 }
 
 #head-con3 {
@@ -38,7 +38,7 @@
   position: fixed;
   height: 70px;
 
-  background-color: #dddddd;
+  background-color: rgb(248, 248, 248);
 }
 #head-right {
   display: flex;
@@ -434,7 +434,7 @@
   position: fixed;
   height: 70px;
 
-  background-color: #dddddd;
+  background-color: rgb(248, 248, 248);
 }
 
 .dataodcard {
