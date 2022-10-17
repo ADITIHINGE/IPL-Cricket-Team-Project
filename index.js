@@ -8,7 +8,7 @@ setInterval(function () {
     if (counter > 4) {
         counter = 1;
     }
-}, 3000);
+}, 2000);
 
 // slider code ends
 
